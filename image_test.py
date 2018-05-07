@@ -18,13 +18,13 @@ from cv_bridge import CvBridge, CvBridgeError
 
 class PrintImage():
 
-    global BLUE_MIN
-    global BLUE_MAX
+    # global BLUE_MIN
+    # global BLUE_MAX
 
     def processImage(self, data):
         try: 
             cv_image = self.bridge.imgmsg_to_cv2(data, "bgr8")
-            cv_image = cv2.cvtColor(cv_image, cv2.COLOR_BGR2HSV)
+            # cv_image = cv2.cvtColor(cv_image, cv2.COLOR_BGR2HSV)
             cv2.imshow('picture', cv_image)
             cv_image = cv2.medianBlur(cv_image, 5)
             cv2.imshow('blurred_picture', cv_image)
@@ -54,7 +54,7 @@ class PrintImage():
         rospy.Subscriber('/camera/rgb/image_raw', Image, self.processImage, queue_size=1,  buff_size=2**24)
         # do nothing. 
         while not rospy.is_shutdown():
-            rospy.spin()
+            pass
                         
         
     # pre-shutdown routine. 
