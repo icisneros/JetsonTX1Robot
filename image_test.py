@@ -24,14 +24,22 @@ class PrintImage():
     def processImage(self, data):
         try: 
             cv_image = self.bridge.imgmsg_to_cv2(data, "bgr8")
-            # cv_image = cv2.cvtColor(cv_image, cv2.COLOR_BGR2HSV)
-            cv2.imshow('picture', cv_image)
-            cv_image = cv2.medianBlur(cv_image, 5)
-            cv2.imshow('blurred_picture', cv_image)
+            cv2.imshow('rgb image', cv_image)
+            
+            cv_hsv = cv2.cvtColor(cv_image, cv2.COLOR_BGR2HSV)
+            #~ cv2.imshow('hsv image', cv_hsv)
+            
+            hsv_blurd = cv2.medianBlur(cv_hsv, 5)
+            #~ cv2.imshow('blurred_picture', hsv_blurd)
+            
             BLUE_MIN = np.array([92,50,50], np.uint8)
             BLUE_MAX = np.array([131,230,230], np.uint8)
-            cv_image = cv2.inRange(cv_image, BLUE_MIN, BLUE_MAX)
-            cv2.imshow('only blue', cv_image)
+            hsv_masked = cv2.inRange(hsv_blurd, BLUE_MIN, BLUE_MAX)
+            #~ cv2.imshow('only blue selected', hsv_masked)
+            
+            result = cv2.bitwise_and(cv_image, cv_image,mask=hsv_masked)
+            cv2.imshow('only blue in image', result)
+            
             cv2.waitKey(3)
         except CvBridgeError, e: 
             rospy.loginfo(e)
@@ -43,7 +51,7 @@ class PrintImage():
         rospy.on_shutdown(self.shutdown)
 
         # print msg 
-        rospy.loginfo("Hello World!")
+        rospy.loginfo("Starting program!")
             
         # How often should provide commands? 10 HZ
         r = rospy.Rate(10);
