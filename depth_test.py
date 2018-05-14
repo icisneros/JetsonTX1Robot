@@ -24,6 +24,7 @@ class PrintImage():
             # NOTE: SOME DATA WILL BE 'NaN' 
             # and numbers correspond to distance to camera in meters
             cv_image = self.bridge.imgmsg_to_cv2(data, 'passthrough')
+            cv2.imshow('Raw Depth Image', cv_image)
             
             # depth_array is a gray images with values between 0 and 1
             cv2.normalize(cv_image, cv_image, 0, 1, cv2.NORM_MINMAX)
@@ -33,6 +34,10 @@ class PrintImage():
 
             cv2.imshow('Depth Image', segmented_depth_mask)
             cv2.waitKey(3)
+
+
+
+
         except CvBridgeError, e: 
             rospy.loginfo(e)
 
