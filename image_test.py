@@ -70,7 +70,7 @@ class PrintImage():
     def shutdown(self):
         cv2.destroyAllWindows()
         # print msg 
-        rospy.loginfo("Stop")
+        rospy.loginfo("Stop command received...")
         # wait for robot to stop before shutdown
         rospy.sleep(5)
  
