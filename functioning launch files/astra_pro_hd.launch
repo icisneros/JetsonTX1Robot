@@ -125,7 +125,7 @@
         <param name="height" value="720"/>  <!-- originally 480 -->
         <!-- choose whichever uncompressed format the camera supports: -->
         <param name="video_mode" value="mjpeg"/> <!-- originally uncompressed but can be yuyv/nv12/jpeg -->
-        <param name="frame_rate" value="15"/>
+        <param name="frame_rate" value="30"/>  <!-- originally 15 -->
         <param name="frame_id" value="$(arg camera)_rgb_optical_frame"/>
 
         <param name="timestamp_method" value="start"/> <!-- start of frame -->
