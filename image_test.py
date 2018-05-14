@@ -72,7 +72,7 @@ class PrintImage():
         # print msg 
         rospy.loginfo("Stop command received...")
         # wait for robot to stop before shutdown
-        rospy.sleep(5)
+        # rospy.sleep(5)
  
 if __name__ == '__main__':
     try:

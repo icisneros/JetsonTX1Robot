@@ -52,7 +52,7 @@ class PrintImage():
         self.bridge = CvBridge()
 
         #rospy.Subscriber('/camera/rgb/image_color', Image, self.processImage)
-        rospy.Subscriber('/camera/depth/image', Image, self.processDepthImage, queue_size=1,  buff_size=2**24)
+        rospy.Subscriber('/camera/depth/image_raw', Image, self.processDepthImage, queue_size=1,  buff_size=2**24)
         # do nothing. 
         while not rospy.is_shutdown():
             pass
