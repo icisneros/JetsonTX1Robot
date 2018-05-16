@@ -28,11 +28,20 @@ class PrintImage():
             
             # depth_array is a gray images with values between 0 and 1
             cv2.normalize(cv_image, cv_image, 0, 1, cv2.NORM_MINMAX)
-            depth_array = cv2.medianBlur(cv_image,5)
+            cv2.imshow('Normalized image', cv_image)
+            
+            im_color = cv2.applyColorMap(cv_image, cv2.COLORMAP_JET)
+            cv2.imshow('Colored image', im_color)
+            
+            #depth_array = cv2.medianBlur(cv_image,5)
+            # cv2.imshow('Blurred image', depth_array)
+            
+            
             # Use inRange() to segment. Get only nearby obstacles
-            segmented_depth_mask = cv2.inRange(cv_image, 0.5, 1)
+            #segmented_depth_mask = cv2.inRange(depth_array, 0.5, 1)
+            #cv2.imshow('Segmented depth mask', segmented_depth_mask)
 
-            cv2.imshow('Depth Image', segmented_depth_mask)
+            # cv2.imshow('Depth Image', segmented_depth_mask)
             cv2.waitKey(3)
 
 
