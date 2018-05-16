@@ -30,9 +30,10 @@ class PrintImage():
             cv2.normalize(cv_image, cv_image, 0, 1, cv2.NORM_MINMAX)
             cv2.imshow('Normalized image', cv_image)
             
-            rospy.loginfo("Image type: ", cv_image.type())
-            #im_color = cv2.applyColorMap(cv_image, cv2.COLORMAP_JET)
-            #cv2.imshow('Colored image', im_color)
+            # convert to 8 bit image
+            uint8_image = np.array(cv_image * 255, dtype = np.uint8)
+            im_color = cv2.applyColorMap(uint8_image, cv2.COLORMAP_JET)
+            cv2.imshow('Colored image', im_color)
             
             #depth_array = cv2.medianBlur(cv_image,5)
             # cv2.imshow('Blurred image', depth_array)
