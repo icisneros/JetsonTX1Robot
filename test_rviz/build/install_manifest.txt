@@ -1,0 +1,14 @@
+/home/nvidia/test_rviz/install/_setup_util.py
+/home/nvidia/test_rviz/install/env.sh
+/home/nvidia/test_rviz/install/setup.bash
+/home/nvidia/test_rviz/install/setup.sh
+/home/nvidia/test_rviz/install/setup.zsh
+/home/nvidia/test_rviz/install/.rosinstall
+/home/nvidia/test_rviz/install/lib/pkgconfig/jetson_bot_urdf.pc
+/home/nvidia/test_rviz/install/share/jetson_bot_urdf/cmake/jetson_bot_urdfConfig.cmake
+/home/nvidia/test_rviz/install/share/jetson_bot_urdf/cmake/jetson_bot_urdfConfig-version.cmake
+/home/nvidia/test_rviz/install/share/jetson_bot_urdf/package.xml
+/home/nvidia/test_rviz/install/share/jetson_bot_urdf/config/joint_names_Jetson Bot  Assembly v58.SLDASM.yaml
+/home/nvidia/test_rviz/install/share/jetson_bot_urdf/launch/display.launch
+/home/nvidia/test_rviz/install/share/jetson_bot_urdf/meshes/base_link.STL
+/home/nvidia/test_rviz/install/share/jetson_bot_urdf/urdf/jetson_bot_urdf.urdf

@@ -1,0 +1,2 @@
+libuvc_ros/libuvc_camera:libuvc_ros/libuvc_ros:ros_astra_camera:ros_astra_launch:rplidar_ros
+-DCATKIN_DEVEL_PREFIX=/home/nvidia/bot_catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/bot_catkin_ws/install -G Unix Makefiles
