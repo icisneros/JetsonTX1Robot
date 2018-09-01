@@ -1,0 +1,8 @@
+prefix=/home/nvidia/test_rviz3/install
+
+Name: jetson_bot_urdf
+Description: Description of jetson_bot_urdf
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/nvidia/test_rviz3/install/lib 
+Requires: 
