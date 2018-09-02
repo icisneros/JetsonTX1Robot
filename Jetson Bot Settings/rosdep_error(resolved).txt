@@ -1,0 +1,50 @@
+nvidia@tegra-ubuntu:/opt/ros/kinetic/share$ sudo apt-get purge ros-kinetic-turtlebot-bringup
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  evemu-tools evtest ftdi-eeprom joystick libavahi-client-dev libavahi-common-dev libavahi-core-dev libconfuse-common libconfuse0 libcppunit-1.13-0v5 libcppunit-dev libdbus-1-dev libevemu3 libftdi-dev
+  libftdi1 libftdi1-2 libjemalloc1 libopenni2-0 libopenni2-dev libsdl1.2debian libusb-dev redis-server redis-tools ros-kinetic-astra-camera ros-kinetic-astra-launch ros-kinetic-bfl
+  ros-kinetic-capabilities ros-kinetic-create-description ros-kinetic-create-driver ros-kinetic-create-node ros-kinetic-depthimage-to-laserscan ros-kinetic-ecl-build ros-kinetic-ecl-command-line
+  ros-kinetic-ecl-concepts ros-kinetic-ecl-config ros-kinetic-ecl-containers ros-kinetic-ecl-converters ros-kinetic-ecl-devices ros-kinetic-ecl-eigen ros-kinetic-ecl-errors ros-kinetic-ecl-exceptions
+  ros-kinetic-ecl-formatters ros-kinetic-ecl-geometry ros-kinetic-ecl-license ros-kinetic-ecl-linear-algebra ros-kinetic-ecl-math ros-kinetic-ecl-mobile-robot ros-kinetic-ecl-mpl
+  ros-kinetic-ecl-sigslots ros-kinetic-ecl-streams ros-kinetic-ecl-threads ros-kinetic-ecl-time ros-kinetic-ecl-time-lite ros-kinetic-ecl-type-traits ros-kinetic-ecl-utilities
+  ros-kinetic-freenect-camera ros-kinetic-freenect-launch ros-kinetic-gateway-msgs ros-kinetic-joy ros-kinetic-kobuki-auto-docking ros-kinetic-kobuki-bumper2pc ros-kinetic-kobuki-capabilities
+  ros-kinetic-kobuki-description ros-kinetic-kobuki-dock-drive ros-kinetic-kobuki-driver ros-kinetic-kobuki-ftdi ros-kinetic-kobuki-keyop ros-kinetic-kobuki-msgs ros-kinetic-kobuki-node
+  ros-kinetic-kobuki-random-walker ros-kinetic-kobuki-rapps ros-kinetic-kobuki-safety-controller ros-kinetic-laptop-battery-monitor ros-kinetic-libfreenect ros-kinetic-openni2-camera
+  ros-kinetic-openni2-launch ros-kinetic-robot-pose-ekf ros-kinetic-rocon-app-manager ros-kinetic-rocon-app-manager-msgs ros-kinetic-rocon-app-utilities ros-kinetic-rocon-apps
+  ros-kinetic-rocon-bubble-icons ros-kinetic-rocon-console ros-kinetic-rocon-ebnf ros-kinetic-rocon-gateway ros-kinetic-rocon-gateway-utils ros-kinetic-rocon-hub ros-kinetic-rocon-hub-client
+  ros-kinetic-rocon-icons ros-kinetic-rocon-interaction-msgs ros-kinetic-rocon-interactions ros-kinetic-rocon-master-info ros-kinetic-rocon-python-comms ros-kinetic-rocon-python-redis
+  ros-kinetic-rocon-python-utils ros-kinetic-rocon-python-wifi ros-kinetic-rocon-semantic-version ros-kinetic-rocon-service-pair-msgs ros-kinetic-rocon-std-msgs ros-kinetic-rocon-uri ros-kinetic-sophus
+  ros-kinetic-std-capabilities ros-kinetic-turtlebot-capabilities ros-kinetic-turtlebot-description ros-kinetic-unique-id ros-kinetic-uuid-msgs ros-kinetic-yocs-cmd-vel-mux ros-kinetic-yocs-controllers
+  ros-kinetic-yocs-velocity-smoother ros-kinetic-zeroconf-avahi ros-kinetic-zeroconf-msgs
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  ros-kinetic-turtlebot-bringup*
+0 upgraded, 0 newly installed, 1 to remove and 301 not upgraded.
+3 not fully installed or removed.
+After this operation, 183 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... 247128 files and directories currently installed.)
+Removing ros-kinetic-turtlebot-bringup (2.4.2-0xenial-20180314-213558-0800) ...
+Setting up ros-kinetic-librealsense (1.12.1-0xenial-20180223-115111-0800) ...
+WARNING: Locally installed librealsense components should removed:
+         sudo rm -f /usr/local/lib/librealsense.so
+         sudo rm -rf /usr/local/include/librealsense
+         sudo rm -f /etc/udev/rules.d/99-realsense-libusb.rules
+modinfo: ERROR: Module uvcvideo not found.
+dpkg: error processing package ros-kinetic-librealsense (--configure):
+ subprocess installed post-installation script returned error exit status 1
+dpkg: dependency problems prevent configuration of ros-kinetic-realsense-camera:
+ ros-kinetic-realsense-camera depends on ros-kinetic-librealsense; however:
+  Package ros-kinetic-librealsense is not configured yet.
+
+dpkg: error processing package ros-kinetic-realsense-camera (--configure):
+ dependency problems - leaving unconfigured
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+No apport report written because the error message indicates its a followup error from a previous failure.
+                                                                                                          Errors were encountered while processing:
+ ros-kinetic-librealsense
+ ros-kinetic-realsense-camera
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+
