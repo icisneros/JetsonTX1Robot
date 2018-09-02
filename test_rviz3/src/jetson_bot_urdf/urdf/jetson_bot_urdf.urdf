@@ -59,7 +59,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.5708 0 0" />
       <geometry>
         <mesh
           filename="package://jetson_bot_urdf/meshes/laser.STL" />
@@ -112,7 +112,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.5708 0 1.5708" />
       <geometry>
         <mesh
           filename="package://jetson_bot_urdf/meshes/camera_link.STL" />
@@ -146,7 +146,7 @@
     <axis
       xyz="0 0 0" />
   </joint>
-  <link
+  <!--<link
     name="camera_rgb_frame">
     <inertial>
       <origin
@@ -357,5 +357,5 @@
       link="camera_depth_optical_frame" />
     <axis
       xyz="0 0 0" />
-  </joint>
+  </joint> -->
 </robot>
