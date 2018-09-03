@@ -118,10 +118,15 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/nvidia/test_catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/nvidia/test_catkin_ws/build/ros_astra_launch/cmake_install.cmake")
+  include("/home/nvidia/test_catkin_ws/build/create_autonomy/ca_tools/cmake_install.cmake")
+  include("/home/nvidia/test_catkin_ws/build/create_autonomy/create_autonomy/cmake_install.cmake")
   include("/home/nvidia/test_catkin_ws/build/libuvc_ros/libuvc_ros/cmake_install.cmake")
+  include("/home/nvidia/test_catkin_ws/build/create_autonomy/ca_msgs/cmake_install.cmake")
+  include("/home/nvidia/test_catkin_ws/build/create_autonomy/ca_description/cmake_install.cmake")
   include("/home/nvidia/test_catkin_ws/build/rplidar_ros/cmake_install.cmake")
   include("/home/nvidia/test_catkin_ws/build/ros_astra_camera/cmake_install.cmake")
   include("/home/nvidia/test_catkin_ws/build/libuvc_ros/libuvc_camera/cmake_install.cmake")
+  include("/home/nvidia/test_catkin_ws/build/create_autonomy/ca_driver/cmake_install.cmake")
 
 endif()
 

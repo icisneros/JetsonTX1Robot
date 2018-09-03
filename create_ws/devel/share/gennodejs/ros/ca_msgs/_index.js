@@ -1,1 +1,0 @@
-/home/nvidia/create_ws/devel/.private/ca_msgs/share/gennodejs/ros/ca_msgs/_index.js

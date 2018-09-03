@@ -1,6 +1,0 @@
-devel_space: /home/nvidia/create_ws/devel
-install: false
-install_space: /home/nvidia/create_ws/install
-profile: default
-source_space: /home/nvidia/create_ws/src
-workspace: /home/nvidia/create_ws

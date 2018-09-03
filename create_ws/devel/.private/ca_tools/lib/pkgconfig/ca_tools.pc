@@ -1,8 +1,0 @@
-prefix=/home/nvidia/create_ws/devel/.private/ca_tools
-
-Name: ca_tools
-Description: Description of ca_tools
-Version: 1.3.0
-Cflags: 
-Libs: -L/home/nvidia/create_ws/devel/.private/ca_tools/lib 
-Requires: 
