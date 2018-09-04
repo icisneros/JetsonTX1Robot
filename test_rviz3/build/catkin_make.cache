@@ -1,2 +1,0 @@
-jetson_bot_urdf
--DCATKIN_DEVEL_PREFIX=/home/nvidia/test_rviz3/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/test_rviz3/install -G Unix Makefiles

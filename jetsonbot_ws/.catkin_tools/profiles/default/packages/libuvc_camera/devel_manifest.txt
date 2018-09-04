@@ -1,0 +1,13 @@
+libuvc_ros/libuvc_camera
+/home/nvidia/jetsonbot_ws/devel/.private/libuvc_camera/share/libuvc_camera/cmake/libuvc_cameraConfig-version.cmake /home/nvidia/jetsonbot_ws/devel/share/libuvc_camera/cmake/libuvc_cameraConfig-version.cmake
+/home/nvidia/jetsonbot_ws/devel/.private/libuvc_camera/share/libuvc_camera/cmake/libuvc_cameraConfig.cmake /home/nvidia/jetsonbot_ws/devel/share/libuvc_camera/cmake/libuvc_cameraConfig.cmake
+/home/nvidia/jetsonbot_ws/devel/.private/libuvc_camera/share/libuvc_camera/docs/UVCCameraConfig.dox /home/nvidia/jetsonbot_ws/devel/share/libuvc_camera/docs/UVCCameraConfig.dox
+/home/nvidia/jetsonbot_ws/devel/.private/libuvc_camera/share/libuvc_camera/docs/UVCCameraConfig.wikidoc /home/nvidia/jetsonbot_ws/devel/share/libuvc_camera/docs/UVCCameraConfig.wikidoc
+/home/nvidia/jetsonbot_ws/devel/.private/libuvc_camera/share/libuvc_camera/docs/UVCCameraConfig-usage.dox /home/nvidia/jetsonbot_ws/devel/share/libuvc_camera/docs/UVCCameraConfig-usage.dox
+/home/nvidia/jetsonbot_ws/devel/.private/libuvc_camera/include/libuvc_camera/UVCCameraConfig.h /home/nvidia/jetsonbot_ws/devel/include/libuvc_camera/UVCCameraConfig.h
+/home/nvidia/jetsonbot_ws/devel/.private/libuvc_camera/lib/liblibuvc_camera_nodelet.so /home/nvidia/jetsonbot_ws/devel/lib/liblibuvc_camera_nodelet.so
+/home/nvidia/jetsonbot_ws/devel/.private/libuvc_camera/lib/pkgconfig/libuvc_camera.pc /home/nvidia/jetsonbot_ws/devel/lib/pkgconfig/libuvc_camera.pc
+/home/nvidia/jetsonbot_ws/devel/.private/libuvc_camera/lib/libuvc_camera/camera_node /home/nvidia/jetsonbot_ws/devel/lib/libuvc_camera/camera_node
+/home/nvidia/jetsonbot_ws/devel/.private/libuvc_camera/lib/python2.7/dist-packages/libuvc_camera/__init__.py /home/nvidia/jetsonbot_ws/devel/lib/python2.7/dist-packages/libuvc_camera/__init__.py
+/home/nvidia/jetsonbot_ws/devel/.private/libuvc_camera/lib/python2.7/dist-packages/libuvc_camera/cfg/__init__.py /home/nvidia/jetsonbot_ws/devel/lib/python2.7/dist-packages/libuvc_camera/cfg/__init__.py
+/home/nvidia/jetsonbot_ws/devel/.private/libuvc_camera/lib/python2.7/dist-packages/libuvc_camera/cfg/UVCCameraConfig.py /home/nvidia/jetsonbot_ws/devel/lib/python2.7/dist-packages/libuvc_camera/cfg/UVCCameraConfig.py

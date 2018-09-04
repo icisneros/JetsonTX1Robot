@@ -1,0 +1,1 @@
+/home/nvidia/jetsonbot_ws/devel/.private/jetson_bot_urdf/lib/pkgconfig/jetson_bot_urdf.pc

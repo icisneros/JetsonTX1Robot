@@ -1,0 +1,1 @@
+/home/nvidia/jetsonbot_ws/devel/.private/ca_msgs/share/roseus/ros/ca_msgs/manifest.l

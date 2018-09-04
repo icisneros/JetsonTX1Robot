@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/astra_usb_reset.dir/src/usb_reset.c.o  -o /home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/astra_camera/astra_usb_reset  -L/home/nvidia/jetsonbot_ws/build/astra_camera/openni2/Redist -rdynamic 

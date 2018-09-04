@@ -1,0 +1,24 @@
+[  0%] Built target _astra_camera_generate_messages_check_deps_GetSerial
+[  2%] [34m[1mPerforming update step for 'astra_openni2'[0m
+[  5%] Built target astra_camera_gencfg
+[ 10%] Built target astra_usb_reset
+[ 16%] Built target astra_camera_generate_messages_py
+[ 18%] Built target astra_camera_generate_messages_lisp
+[ 21%] Built target astra_camera_generate_messages_nodejs
+[ 27%] Built target astra_camera_generate_messages_eus
+[ 29%] Built target astra_camera_generate_messages_cpp
+[ 29%] Built target astra_camera_generate_messages
+Current branch orbbec_ros is up to date.
+[ 32%] [34m[1mPerforming configure step for 'astra_openni2'[0m
+no need to configure
+[ 35%] [34m[1mPerforming build step for 'astra_openni2'[0m
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+[ 37%] [34m[1mPerforming install step for 'astra_openni2'[0m
+[ 40%] [34m[1mCompleted 'astra_openni2'[0m
+[ 48%] Built target astra_openni2
+[ 72%] Built target astra_wrapper
+[ 78%] Built target astra_test_wrapper
+[ 89%] Built target astra_driver_lib
+[ 89%] Built target astra_list_devices
+[ 94%] Built target astra_camera_nodelet
+[100%] Built target astra_camera_node

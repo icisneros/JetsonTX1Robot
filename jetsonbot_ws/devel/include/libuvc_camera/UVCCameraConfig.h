@@ -1,0 +1,1 @@
+/home/nvidia/jetsonbot_ws/devel/.private/libuvc_camera/include/libuvc_camera/UVCCameraConfig.h
