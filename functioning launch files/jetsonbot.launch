@@ -1,0 +1,11 @@
+<launch>
+  
+  
+  <!-- Optional Rviz launch call
+  <include file="$(find jetson_bot_urdf)/launch/display.launch"/>
+  
+  
+  <include file="$(find rplidar_ros)/launch/rplidar.launch"/>
+  <include file="$(find astra_launch)/launch/astra_pro.launch"/> -->
+  <include file="$(find ca_driver)/launch/create_2.launch"/>
+</launch>
