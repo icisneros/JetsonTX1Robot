@@ -28,39 +28,39 @@ The CXX compiler identification is GNU, found in "/home/nvidia/jetsonbot_ws/buil
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_98cdf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_98cdf.dir/build.make CMakeFiles/cmTC_98cdf.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e54ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e54ff.dir/build.make CMakeFiles/cmTC_e54ff.dir/build
 make[1]: Entering directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_98cdf.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_98cdf.dir/testCCompiler.c.o   -c /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_98cdf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98cdf.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_98cdf.dir/testCCompiler.c.o  -o cmTC_98cdf -rdynamic 
+Building C object CMakeFiles/cmTC_e54ff.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_e54ff.dir/testCCompiler.c.o   -c /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e54ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e54ff.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e54ff.dir/testCCompiler.c.o  -o cmTC_e54ff -rdynamic 
 make[1]: Leaving directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0f3f7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0f3f7.dir/build.make CMakeFiles/cmTC_0f3f7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6a349/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6a349.dir/build.make CMakeFiles/cmTC_6a349.dir/build
 make[1]: Entering directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0f3f7.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_0f3f7.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_0f3f7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f3f7.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_0f3f7.dir/CMakeCCompilerABI.c.o  -o cmTC_0f3f7 -rdynamic  
+Building C object CMakeFiles/cmTC_6a349.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_6a349.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_6a349
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a349.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_6a349.dir/CMakeCCompilerABI.c.o  -o cmTC_6a349 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper
 Target: aarch64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-arm64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-arm64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-arm64 --with-arch-directory=aarch64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-arm64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-arm64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-arm64 --with-arch-directory=aarch64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
 Thread model: posix
-gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.9) 
+gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.11) 
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0f3f7' '-rdynamic' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cctuLTTd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -z relro -o cmTC_0f3f7 /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/5 -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/5/../../.. CMakeFiles/cmTC_0f3f7.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/aarch64-linux-gnu/5/crtend.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6a349' '-rdynamic' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpXENlE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -z relro -o cmTC_6a349 /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/5 -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/5/../../.. CMakeFiles/cmTC_6a349.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/aarch64-linux-gnu/5/crtend.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
 
 
@@ -68,30 +68,30 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0f3f7/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0f3f7.dir/build.make CMakeFiles/cmTC_0f3f7.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6a349/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6a349.dir/build.make CMakeFiles/cmTC_6a349.dir/build]
   ignore line: [make[1]: Entering directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_0f3f7.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_0f3f7.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_0f3f7]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f3f7.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_0f3f7.dir/CMakeCCompilerABI.c.o  -o cmTC_0f3f7 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_6a349.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_6a349.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_6a349]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a349.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_6a349.dir/CMakeCCompilerABI.c.o  -o cmTC_6a349 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper]
   ignore line: [Target: aarch64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-arm64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-arm64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-arm64 --with-arch-directory=aarch64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-arm64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-arm64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-arm64 --with-arch-directory=aarch64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.9) ]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.11) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0f3f7' '-rdynamic' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cctuLTTd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -z relro -o cmTC_0f3f7 /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/5 -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/5/../../.. CMakeFiles/cmTC_0f3f7.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/aarch64-linux-gnu/5/crtend.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6a349' '-rdynamic' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpXENlE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -z relro -o cmTC_6a349 /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/5 -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/5/../../.. CMakeFiles/cmTC_6a349.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/aarch64-linux-gnu/5/crtend.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cctuLTTd.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccpXENlE.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -111,7 +111,7 @@ Parsed C implicit link information from above output:
     arg [--fix-cortex-a53-843419] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0f3f7] ==> ignore
+    arg [cmTC_6a349] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -123,7 +123,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_0f3f7.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_6a349.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -157,14 +157,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_51fb7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_51fb7.dir/build.make CMakeFiles/cmTC_51fb7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_edd8f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_edd8f.dir/build.make CMakeFiles/cmTC_edd8f.dir/build
 make[1]: Entering directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_51fb7.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_51fb7.dir/feature_tests.c.o   -c /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/feature_tests.c
-Linking C executable cmTC_51fb7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51fb7.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_51fb7.dir/feature_tests.c.o  -o cmTC_51fb7 -rdynamic 
+Building C object CMakeFiles/cmTC_edd8f.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_edd8f.dir/feature_tests.c.o   -c /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/feature_tests.c
+Linking C executable cmTC_edd8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edd8f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_edd8f.dir/feature_tests.c.o  -o cmTC_edd8f -rdynamic 
 make[1]: Leaving directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
 
 
@@ -177,14 +177,14 @@ make[1]: Leaving directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMak
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9aef6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9aef6.dir/build.make CMakeFiles/cmTC_9aef6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_81a5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81a5b.dir/build.make CMakeFiles/cmTC_81a5b.dir/build
 make[1]: Entering directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9aef6.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_9aef6.dir/feature_tests.c.o   -c /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9aef6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9aef6.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_9aef6.dir/feature_tests.c.o  -o cmTC_9aef6 -rdynamic 
+Building C object CMakeFiles/cmTC_81a5b.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_81a5b.dir/feature_tests.c.o   -c /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/feature_tests.c
+Linking C executable cmTC_81a5b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81a5b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_81a5b.dir/feature_tests.c.o  -o cmTC_81a5b -rdynamic 
 make[1]: Leaving directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
 
 
@@ -197,14 +197,14 @@ make[1]: Leaving directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMak
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d83fd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d83fd.dir/build.make CMakeFiles/cmTC_d83fd.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d596e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d596e.dir/build.make CMakeFiles/cmTC_d596e.dir/build
 make[1]: Entering directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d83fd.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_d83fd.dir/feature_tests.c.o   -c /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d83fd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d83fd.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_d83fd.dir/feature_tests.c.o  -o cmTC_d83fd -rdynamic 
+Building C object CMakeFiles/cmTC_d596e.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_d596e.dir/feature_tests.c.o   -c /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d596e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d596e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d596e.dir/feature_tests.c.o  -o cmTC_d596e -rdynamic 
 make[1]: Leaving directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
 
 
@@ -215,39 +215,39 @@ make[1]: Leaving directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMak
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b942c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b942c.dir/build.make CMakeFiles/cmTC_b942c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1b288/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b288.dir/build.make CMakeFiles/cmTC_1b288.dir/build
 make[1]: Entering directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b942c.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_b942c.dir/testCXXCompiler.cxx.o -c /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_b942c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b942c.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_b942c.dir/testCXXCompiler.cxx.o  -o cmTC_b942c -rdynamic 
+Building CXX object CMakeFiles/cmTC_1b288.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_1b288.dir/testCXXCompiler.cxx.o -c /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_1b288
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b288.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_1b288.dir/testCXXCompiler.cxx.o  -o cmTC_1b288 -rdynamic 
 make[1]: Leaving directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b39b7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b39b7.dir/build.make CMakeFiles/cmTC_b39b7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_77807/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77807.dir/build.make CMakeFiles/cmTC_77807.dir/build
 make[1]: Entering directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b39b7.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_b39b7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_b39b7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b39b7.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_b39b7.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b39b7 -rdynamic  
+Building CXX object CMakeFiles/cmTC_77807.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_77807.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_77807
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77807.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_77807.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_77807 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper
 Target: aarch64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-arm64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-arm64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-arm64 --with-arch-directory=aarch64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-arm64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-arm64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-arm64 --with-arch-directory=aarch64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
 Thread model: posix
-gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.9) 
+gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.11) 
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b39b7' '-rdynamic' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccReVnKb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -z relro -o cmTC_b39b7 /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/5 -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/5/../../.. CMakeFiles/cmTC_b39b7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/5/crtend.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_77807' '-rdynamic' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccD5q2G9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -z relro -o cmTC_77807 /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/5 -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/5/../../.. CMakeFiles/cmTC_77807.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/5/crtend.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
 
 
@@ -255,30 +255,30 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b39b7/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b39b7.dir/build.make CMakeFiles/cmTC_b39b7.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_77807/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_77807.dir/build.make CMakeFiles/cmTC_77807.dir/build]
   ignore line: [make[1]: Entering directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_b39b7.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_b39b7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_b39b7]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b39b7.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_b39b7.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b39b7 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_77807.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_77807.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_77807]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77807.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_77807.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_77807 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper]
   ignore line: [Target: aarch64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-arm64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-arm64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-arm64 --with-arch-directory=aarch64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-arm64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-arm64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-arm64 --with-arch-directory=aarch64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.9) ]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.11) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b39b7' '-rdynamic' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccReVnKb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -z relro -o cmTC_b39b7 /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/5 -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/5/../../.. CMakeFiles/cmTC_b39b7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/5/crtend.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_77807' '-rdynamic' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccD5q2G9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -z relro -o cmTC_77807 /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/5 -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/5/../../.. CMakeFiles/cmTC_77807.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/5/crtend.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccReVnKb.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccD5q2G9.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -298,7 +298,7 @@ Parsed CXX implicit link information from above output:
     arg [--fix-cortex-a53-843419] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b39b7] ==> ignore
+    arg [cmTC_77807] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -310,7 +310,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_b39b7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_77807.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,14 +342,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dfd61/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dfd61.dir/build.make CMakeFiles/cmTC_dfd61.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e5a2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5a2e.dir/build.make CMakeFiles/cmTC_e5a2e.dir/build
 make[1]: Entering directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_dfd61.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_dfd61.dir/feature_tests.cxx.o -c /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_dfd61
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfd61.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_dfd61.dir/feature_tests.cxx.o  -o cmTC_dfd61 -rdynamic 
+Building CXX object CMakeFiles/cmTC_e5a2e.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_e5a2e.dir/feature_tests.cxx.o -c /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e5a2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5a2e.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_e5a2e.dir/feature_tests.cxx.o  -o cmTC_e5a2e -rdynamic 
 make[1]: Leaving directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
 
 
@@ -415,14 +415,14 @@ make[1]: Leaving directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMak
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f3d47/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f3d47.dir/build.make CMakeFiles/cmTC_f3d47.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_184e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_184e7.dir/build.make CMakeFiles/cmTC_184e7.dir/build
 make[1]: Entering directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f3d47.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_f3d47.dir/feature_tests.cxx.o -c /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f3d47
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3d47.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_f3d47.dir/feature_tests.cxx.o  -o cmTC_f3d47 -rdynamic 
+Building CXX object CMakeFiles/cmTC_184e7.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_184e7.dir/feature_tests.cxx.o -c /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_184e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_184e7.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_184e7.dir/feature_tests.cxx.o  -o cmTC_184e7 -rdynamic 
 make[1]: Leaving directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
 
 
@@ -488,14 +488,14 @@ make[1]: Leaving directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMak
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_67884/fast"
-/usr/bin/make -f CMakeFiles/cmTC_67884.dir/build.make CMakeFiles/cmTC_67884.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_800eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_800eb.dir/build.make CMakeFiles/cmTC_800eb.dir/build
 make[1]: Entering directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_67884.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_67884.dir/feature_tests.cxx.o -c /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_67884
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67884.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_67884.dir/feature_tests.cxx.o  -o cmTC_67884 -rdynamic 
+Building CXX object CMakeFiles/cmTC_800eb.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_800eb.dir/feature_tests.cxx.o -c /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_800eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_800eb.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_800eb.dir/feature_tests.cxx.o  -o cmTC_800eb -rdynamic 
 make[1]: Leaving directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
 
 
@@ -559,28 +559,28 @@ make[1]: Leaving directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMak
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_69b11/fast"
-/usr/bin/make -f CMakeFiles/cmTC_69b11.dir/build.make CMakeFiles/cmTC_69b11.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_48521/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48521.dir/build.make CMakeFiles/cmTC_48521.dir/build
 make[1]: Entering directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_69b11.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_69b11.dir/CheckIncludeFile.c.o   -c /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_69b11
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69b11.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_69b11.dir/CheckIncludeFile.c.o  -o cmTC_69b11 -rdynamic 
+Building C object CMakeFiles/cmTC_48521.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_48521.dir/CheckIncludeFile.c.o   -c /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_48521
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48521.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_48521.dir/CheckIncludeFile.c.o  -o cmTC_48521 -rdynamic 
 make[1]: Leaving directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9d902/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9d902.dir/build.make CMakeFiles/cmTC_9d902.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_98947/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98947.dir/build.make CMakeFiles/cmTC_98947.dir/build
 make[1]: Entering directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9d902.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9d902.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9d902
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d902.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_9d902.dir/CheckFunctionExists.c.o  -o cmTC_9d902 -rdynamic -lpthread 
+Building C object CMakeFiles/cmTC_98947.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_98947.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_98947
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98947.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_98947.dir/CheckFunctionExists.c.o  -o cmTC_98947 -rdynamic -lpthread 
 make[1]: Leaving directory '/home/nvidia/jetsonbot_ws/build/jetson_bot_urdf/CMakeFiles/CMakeTmp'
 
 

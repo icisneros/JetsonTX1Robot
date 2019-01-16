@@ -1,24 +1,77 @@
+[35m[1mScanning dependencies of target _astra_camera_generate_messages_check_deps_GetSerial[0m
 [  0%] Built target _astra_camera_generate_messages_check_deps_GetSerial
-[  2%] [34m[1mPerforming update step for 'astra_openni2'[0m
-[  5%] Built target astra_camera_gencfg
-[ 10%] Built target astra_usb_reset
-[ 16%] Built target astra_camera_generate_messages_py
-[ 18%] Built target astra_camera_generate_messages_lisp
-[ 21%] Built target astra_camera_generate_messages_nodejs
-[ 27%] Built target astra_camera_generate_messages_eus
-[ 29%] Built target astra_camera_generate_messages_cpp
-[ 29%] Built target astra_camera_generate_messages
+[35m[1mScanning dependencies of target astra_openni2[0m
+[  2%] [34m[1mCreating directories for 'astra_openni2'[0m
+[  5%] [34m[1mPerforming download step (git clone) for 'astra_openni2'[0m
+Cloning into 'astra_openni2'...
+[35m[1mScanning dependencies of target astra_camera_gencfg[0m
+[  8%] [34m[1mGenerating dynamic reconfigure files from cfg/Astra.cfg: /home/nvidia/jetsonbot_ws/devel/.private/astra_camera/include/astra_camera/AstraConfig.h /home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/python2.7/dist-packages/astra_camera/cfg/AstraConfig.py[0m
+Generating reconfiguration files for Astra in astra_camera
+Wrote header file in /home/nvidia/jetsonbot_ws/devel/.private/astra_camera/include/astra_camera/AstraConfig.h
+[  8%] Built target astra_camera_gencfg
+[35m[1mScanning dependencies of target astra_usb_reset[0m
+[ 10%] [32mBuilding C object CMakeFiles/astra_usb_reset.dir/src/usb_reset.c.o[0m
+[ 13%] [32m[1mLinking C executable /home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/astra_camera/astra_usb_reset[0m
+[ 13%] Built target astra_usb_reset
+[35m[1mScanning dependencies of target astra_camera_generate_messages_py[0m
+[ 16%] [34m[1mGenerating Python code from SRV astra_camera/GetSerial[0m
+[ 18%] [34m[1mGenerating Python srv __init__.py for astra_camera[0m
+[ 18%] Built target astra_camera_generate_messages_py
+[35m[1mScanning dependencies of target astra_camera_generate_messages_lisp[0m
+[ 21%] [34m[1mGenerating Lisp code from astra_camera/GetSerial.srv[0m
+[ 21%] Built target astra_camera_generate_messages_lisp
+[35m[1mScanning dependencies of target astra_camera_generate_messages_nodejs[0m
+[ 24%] [34m[1mGenerating Javascript code from astra_camera/GetSerial.srv[0m
+[ 24%] Built target astra_camera_generate_messages_nodejs
+[35m[1mScanning dependencies of target astra_camera_generate_messages_eus[0m
+[ 27%] [34m[1mGenerating EusLisp code from astra_camera/GetSerial.srv[0m
+[ 29%] [34m[1mGenerating EusLisp manifest code for astra_camera[0m
+[ 29%] Built target astra_camera_generate_messages_eus
+[35m[1mScanning dependencies of target astra_camera_generate_messages_cpp[0m
+[ 32%] [34m[1mGenerating C++ code from astra_camera/GetSerial.srv[0m
+[ 32%] Built target astra_camera_generate_messages_cpp
+[35m[1mScanning dependencies of target astra_camera_generate_messages[0m
+[ 32%] Built target astra_camera_generate_messages
+Switched to a new branch 'orbbec_ros'
+Branch orbbec_ros set up to track remote branch orbbec_ros from origin.
+[ 35%] [34m[1mPerforming update step for 'astra_openni2'[0m
+[ 37%] [34m[1mNo patch step for 'astra_openni2'[0m
 Current branch orbbec_ros is up to date.
-[ 32%] [34m[1mPerforming configure step for 'astra_openni2'[0m
+[ 40%] [34m[1mPerforming configure step for 'astra_openni2'[0m
 no need to configure
-[ 35%] [34m[1mPerforming build step for 'astra_openni2'[0m
+[ 43%] [34m[1mPerforming build step for 'astra_openni2'[0m
 make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
-[ 37%] [34m[1mPerforming install step for 'astra_openni2'[0m
-[ 40%] [34m[1mCompleted 'astra_openni2'[0m
+[ 45%] [34m[1mPerforming install step for 'astra_openni2'[0m
+[ 48%] [34m[1mCompleted 'astra_openni2'[0m
 [ 48%] Built target astra_openni2
+[35m[1mScanning dependencies of target astra_wrapper[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/astra_wrapper.dir/src/astra_convert.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/astra_wrapper.dir/src/astra_device_info.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/astra_wrapper.dir/src/astra_device.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/astra_wrapper.dir/src/astra_timer_filter.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/astra_wrapper.dir/src/astra_frame_listener.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/astra_wrapper.dir/src/astra_device_manager.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/astra_wrapper.dir/src/astra_exception.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/astra_wrapper.dir/src/astra_video_mode.cpp.o[0m
+[ 72%] [32m[1mLinking CXX shared library /home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/libastra_wrapper.so[0m
 [ 72%] Built target astra_wrapper
-[ 78%] Built target astra_test_wrapper
+[35m[1mScanning dependencies of target astra_driver_lib[0m
+[35m[1mScanning dependencies of target astra_test_wrapper[0m
+[35m[1mScanning dependencies of target astra_list_devices[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/astra_list_devices.dir/src/list_devices.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/astra_test_wrapper.dir/test/test_wrapper.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/astra_driver_lib.dir/src/astra_driver.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable /home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/astra_camera/astra_list_devices[0m
+[ 83%] Built target astra_list_devices
+[ 86%] [32m[1mLinking CXX executable /home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/astra_camera/astra_test_wrapper[0m
+[ 86%] Built target astra_test_wrapper
+[ 89%] [32m[1mLinking CXX shared library /home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/libastra_driver_lib.so[0m
 [ 89%] Built target astra_driver_lib
-[ 89%] Built target astra_list_devices
-[ 94%] Built target astra_camera_nodelet
+[35m[1mScanning dependencies of target astra_camera_node[0m
+[35m[1mScanning dependencies of target astra_camera_nodelet[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/astra_camera_node.dir/ros/astra_camera_node.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/astra_camera_nodelet.dir/ros/astra_camera_nodelet.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable /home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/astra_camera/astra_camera_node[0m
+[100%] [32m[1mLinking CXX shared library /home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/libastra_camera_nodelet.so[0m
 [100%] Built target astra_camera_node
+[100%] Built target astra_camera_nodelet

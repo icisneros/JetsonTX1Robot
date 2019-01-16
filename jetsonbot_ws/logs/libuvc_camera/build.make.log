@@ -1,3 +1,15 @@
+[35m[1mScanning dependencies of target libuvc_camera_gencfg[0m
+[ 14%] [34m[1mGenerating dynamic reconfigure files from cfg/UVCCamera.cfg: /home/nvidia/jetsonbot_ws/devel/.private/libuvc_camera/include/libuvc_camera/UVCCameraConfig.h /home/nvidia/jetsonbot_ws/devel/.private/libuvc_camera/lib/python2.7/dist-packages/libuvc_camera/cfg/UVCCameraConfig.py[0m
+Generating reconfiguration files for UVCCamera in libuvc_camera
+Wrote header file in /home/nvidia/jetsonbot_ws/devel/.private/libuvc_camera/include/libuvc_camera/UVCCameraConfig.h
 [ 14%] Built target libuvc_camera_gencfg
-[ 57%] Built target libuvc_camera_nodelet
+[35m[1mScanning dependencies of target libuvc_camera_nodelet[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/libuvc_camera_nodelet.dir/src/nodelet.cpp.o[0m
+[35m[1mScanning dependencies of target camera_node[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/camera_node.dir/src/main.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/libuvc_camera_nodelet.dir/src/camera_driver.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/camera_node.dir/src/camera_driver.cpp.o[0m
+[ 85%] [32m[1mLinking CXX shared library /home/nvidia/jetsonbot_ws/devel/.private/libuvc_camera/lib/liblibuvc_camera_nodelet.so[0m
+[ 85%] Built target libuvc_camera_nodelet
+[100%] [32m[1mLinking CXX executable /home/nvidia/jetsonbot_ws/devel/.private/libuvc_camera/lib/libuvc_camera/camera_node[0m
 [100%] Built target camera_node

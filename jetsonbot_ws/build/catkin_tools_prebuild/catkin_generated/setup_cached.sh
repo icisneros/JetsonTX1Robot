@@ -8,7 +8,9 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/nvidia/jetsonbot_ws/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/nvidia/test_rviz3/devel/lib:/home/nvidia/test_catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/aarch64-linux-gnu:/usr/local/lib:/usr/local/cuda-9.0/lib64"
+export LD_LIBRARY_PATH="/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/aarch64-linux-gnu:/usr/local/lib:/usr/local/cuda-9.0/lib64"
+export PKG_CONFIG_PATH="/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/aarch64-linux-gnu/pkgconfig"
 export PWD="/home/nvidia/jetsonbot_ws/build/catkin_tools_prebuild"
+export PYTHONPATH="/opt/ros/kinetic/lib/python2.7/dist-packages"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/nvidia/jetsonbot_ws/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/nvidia/jetsonbot_ws/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"

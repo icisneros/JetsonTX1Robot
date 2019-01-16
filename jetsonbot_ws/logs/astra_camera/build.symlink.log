@@ -1,33 +1,33 @@
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/roseus/ros/astra_camera/manifest.l, /home/nvidia/jetsonbot_ws/devel/share/roseus/ros/astra_camera/manifest.l)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/roseus/ros/astra_camera/srv/GetSerial.l, /home/nvidia/jetsonbot_ws/devel/share/roseus/ros/astra_camera/srv/GetSerial.l)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/gennodejs/ros/astra_camera/_index.js, /home/nvidia/jetsonbot_ws/devel/share/gennodejs/ros/astra_camera/_index.js)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/gennodejs/ros/astra_camera/srv/_index.js, /home/nvidia/jetsonbot_ws/devel/share/gennodejs/ros/astra_camera/srv/_index.js)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/gennodejs/ros/astra_camera/srv/GetSerial.js, /home/nvidia/jetsonbot_ws/devel/share/gennodejs/ros/astra_camera/srv/GetSerial.js)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/common-lisp/ros/astra_camera/srv/_package.lisp, /home/nvidia/jetsonbot_ws/devel/share/common-lisp/ros/astra_camera/srv/_package.lisp)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/common-lisp/ros/astra_camera/srv/astra_camera-srv.asd, /home/nvidia/jetsonbot_ws/devel/share/common-lisp/ros/astra_camera/srv/astra_camera-srv.asd)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/common-lisp/ros/astra_camera/srv/GetSerial.lisp, /home/nvidia/jetsonbot_ws/devel/share/common-lisp/ros/astra_camera/srv/GetSerial.lisp)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/common-lisp/ros/astra_camera/srv/_package_GetSerial.lisp, /home/nvidia/jetsonbot_ws/devel/share/common-lisp/ros/astra_camera/srv/_package_GetSerial.lisp)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/astra_camera/cmake/astra_cameraConfig-version.cmake, /home/nvidia/jetsonbot_ws/devel/share/astra_camera/cmake/astra_cameraConfig-version.cmake)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/astra_camera/cmake/astra_camera-msg-extras.cmake, /home/nvidia/jetsonbot_ws/devel/share/astra_camera/cmake/astra_camera-msg-extras.cmake)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/astra_camera/cmake/astra_camera-msg-paths.cmake, /home/nvidia/jetsonbot_ws/devel/share/astra_camera/cmake/astra_camera-msg-paths.cmake)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/astra_camera/cmake/astra_cameraConfig.cmake, /home/nvidia/jetsonbot_ws/devel/share/astra_camera/cmake/astra_cameraConfig.cmake)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/astra_camera/docs/AstraConfig.wikidoc, /home/nvidia/jetsonbot_ws/devel/share/astra_camera/docs/AstraConfig.wikidoc)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/astra_camera/docs/AstraConfig-usage.dox, /home/nvidia/jetsonbot_ws/devel/share/astra_camera/docs/AstraConfig-usage.dox)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/astra_camera/docs/AstraConfig.dox, /home/nvidia/jetsonbot_ws/devel/share/astra_camera/docs/AstraConfig.dox)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/include/astra_camera/AstraConfig.h, /home/nvidia/jetsonbot_ws/devel/include/astra_camera/AstraConfig.h)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/include/astra_camera/GetSerialResponse.h, /home/nvidia/jetsonbot_ws/devel/include/astra_camera/GetSerialResponse.h)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/include/astra_camera/GetSerial.h, /home/nvidia/jetsonbot_ws/devel/include/astra_camera/GetSerial.h)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/include/astra_camera/GetSerialRequest.h, /home/nvidia/jetsonbot_ws/devel/include/astra_camera/GetSerialRequest.h)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/libastra_driver_lib.so, /home/nvidia/jetsonbot_ws/devel/lib/libastra_driver_lib.so)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/libastra_wrapper.so, /home/nvidia/jetsonbot_ws/devel/lib/libastra_wrapper.so)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/libastra_camera_nodelet.so, /home/nvidia/jetsonbot_ws/devel/lib/libastra_camera_nodelet.so)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/pkgconfig/astra_camera.pc, /home/nvidia/jetsonbot_ws/devel/lib/pkgconfig/astra_camera.pc)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/astra_camera/astra_camera_node, /home/nvidia/jetsonbot_ws/devel/lib/astra_camera/astra_camera_node)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/astra_camera/astra_usb_reset, /home/nvidia/jetsonbot_ws/devel/lib/astra_camera/astra_usb_reset)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/astra_camera/astra_list_devices, /home/nvidia/jetsonbot_ws/devel/lib/astra_camera/astra_list_devices)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/astra_camera/astra_test_wrapper, /home/nvidia/jetsonbot_ws/devel/lib/astra_camera/astra_test_wrapper)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/python2.7/dist-packages/astra_camera/__init__.py, /home/nvidia/jetsonbot_ws/devel/lib/python2.7/dist-packages/astra_camera/__init__.py)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/python2.7/dist-packages/astra_camera/cfg/AstraConfig.py, /home/nvidia/jetsonbot_ws/devel/lib/python2.7/dist-packages/astra_camera/cfg/AstraConfig.py)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/python2.7/dist-packages/astra_camera/cfg/__init__.py, /home/nvidia/jetsonbot_ws/devel/lib/python2.7/dist-packages/astra_camera/cfg/__init__.py)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/python2.7/dist-packages/astra_camera/srv/__init__.py, /home/nvidia/jetsonbot_ws/devel/lib/python2.7/dist-packages/astra_camera/srv/__init__.py)
-Linked: (/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/python2.7/dist-packages/astra_camera/srv/_GetSerial.py, /home/nvidia/jetsonbot_ws/devel/lib/python2.7/dist-packages/astra_camera/srv/_GetSerial.py)
+Symlinking /home/nvidia/jetsonbot_ws/devel/share/roseus/ros/astra_camera/manifest.l
+Symlinking /home/nvidia/jetsonbot_ws/devel/share/roseus/ros/astra_camera/srv/GetSerial.l
+Symlinking /home/nvidia/jetsonbot_ws/devel/share/gennodejs/ros/astra_camera/_index.js
+Symlinking /home/nvidia/jetsonbot_ws/devel/share/gennodejs/ros/astra_camera/srv/_index.js
+Symlinking /home/nvidia/jetsonbot_ws/devel/share/gennodejs/ros/astra_camera/srv/GetSerial.js
+Symlinking /home/nvidia/jetsonbot_ws/devel/share/common-lisp/ros/astra_camera/srv/_package.lisp
+Symlinking /home/nvidia/jetsonbot_ws/devel/share/common-lisp/ros/astra_camera/srv/astra_camera-srv.asd
+Symlinking /home/nvidia/jetsonbot_ws/devel/share/common-lisp/ros/astra_camera/srv/GetSerial.lisp
+Symlinking /home/nvidia/jetsonbot_ws/devel/share/common-lisp/ros/astra_camera/srv/_package_GetSerial.lisp
+Symlinking /home/nvidia/jetsonbot_ws/devel/share/astra_camera/cmake/astra_cameraConfig-version.cmake
+Symlinking /home/nvidia/jetsonbot_ws/devel/share/astra_camera/cmake/astra_camera-msg-extras.cmake
+Symlinking /home/nvidia/jetsonbot_ws/devel/share/astra_camera/cmake/astra_camera-msg-paths.cmake
+Symlinking /home/nvidia/jetsonbot_ws/devel/share/astra_camera/cmake/astra_cameraConfig.cmake
+Symlinking /home/nvidia/jetsonbot_ws/devel/share/astra_camera/docs/AstraConfig.wikidoc
+Symlinking /home/nvidia/jetsonbot_ws/devel/share/astra_camera/docs/AstraConfig-usage.dox
+Symlinking /home/nvidia/jetsonbot_ws/devel/share/astra_camera/docs/AstraConfig.dox
+Symlinking /home/nvidia/jetsonbot_ws/devel/include/astra_camera/AstraConfig.h
+Symlinking /home/nvidia/jetsonbot_ws/devel/include/astra_camera/GetSerialResponse.h
+Symlinking /home/nvidia/jetsonbot_ws/devel/include/astra_camera/GetSerial.h
+Symlinking /home/nvidia/jetsonbot_ws/devel/include/astra_camera/GetSerialRequest.h
+Symlinking /home/nvidia/jetsonbot_ws/devel/lib/libastra_driver_lib.so
+Symlinking /home/nvidia/jetsonbot_ws/devel/lib/libastra_wrapper.so
+Symlinking /home/nvidia/jetsonbot_ws/devel/lib/libastra_camera_nodelet.so
+Symlinking /home/nvidia/jetsonbot_ws/devel/lib/pkgconfig/astra_camera.pc
+Symlinking /home/nvidia/jetsonbot_ws/devel/lib/astra_camera/astra_camera_node
+Symlinking /home/nvidia/jetsonbot_ws/devel/lib/astra_camera/astra_usb_reset
+Symlinking /home/nvidia/jetsonbot_ws/devel/lib/astra_camera/astra_list_devices
+Symlinking /home/nvidia/jetsonbot_ws/devel/lib/astra_camera/astra_test_wrapper
+Symlinking /home/nvidia/jetsonbot_ws/devel/lib/python2.7/dist-packages/astra_camera/__init__.py
+Symlinking /home/nvidia/jetsonbot_ws/devel/lib/python2.7/dist-packages/astra_camera/cfg/AstraConfig.py
+Symlinking /home/nvidia/jetsonbot_ws/devel/lib/python2.7/dist-packages/astra_camera/cfg/__init__.py
+Symlinking /home/nvidia/jetsonbot_ws/devel/lib/python2.7/dist-packages/astra_camera/srv/__init__.py
+Symlinking /home/nvidia/jetsonbot_ws/devel/lib/python2.7/dist-packages/astra_camera/srv/_GetSerial.py

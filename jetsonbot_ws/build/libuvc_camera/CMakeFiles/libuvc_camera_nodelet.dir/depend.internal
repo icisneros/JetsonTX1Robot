@@ -102,12 +102,13 @@ CMakeFiles/libuvc_camera_nodelet.dir/src/nodelet.cpp.o
  /home/nvidia/jetsonbot_ws/src/libuvc_ros/libuvc_camera/include/libuvc_camera/camera_driver.h
  /home/nvidia/jetsonbot_ws/src/libuvc_ros/libuvc_camera/src/nodelet.cpp
  /opt/ros/kinetic/include/camera_info_manager/camera_info_manager.h
+ /opt/ros/kinetic/include/class_loader/./class_loader.hpp
  /opt/ros/kinetic/include/class_loader/class_loader.h
- /opt/ros/kinetic/include/class_loader/class_loader_core.h
- /opt/ros/kinetic/include/class_loader/class_loader_exceptions.h
- /opt/ros/kinetic/include/class_loader/class_loader_register_macro.h
- /opt/ros/kinetic/include/class_loader/console_bridge_compatibility.h
- /opt/ros/kinetic/include/class_loader/meta_object.h
+ /opt/ros/kinetic/include/class_loader/class_loader_core.hpp
+ /opt/ros/kinetic/include/class_loader/console_bridge_compatibility.hpp
+ /opt/ros/kinetic/include/class_loader/exceptions.hpp
+ /opt/ros/kinetic/include/class_loader/meta_object.hpp
+ /opt/ros/kinetic/include/class_loader/register_macro.hpp
  /opt/ros/kinetic/include/dynamic_reconfigure/BoolParameter.h
  /opt/ros/kinetic/include/dynamic_reconfigure/Config.h
  /opt/ros/kinetic/include/dynamic_reconfigure/ConfigDescription.h

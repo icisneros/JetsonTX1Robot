@@ -97,8 +97,8 @@ astra_list_devices_EXTERNAL_OBJECTS =
 /home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/astra_camera/astra_list_devices: /opt/ros/kinetic/lib/libimage_transport.so
 /home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/astra_camera/astra_list_devices: /opt/ros/kinetic/lib/libmessage_filters.so
 /home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/astra_camera/astra_list_devices: /opt/ros/kinetic/lib/libnodeletlib.so
-/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/astra_camera/astra_list_devices: /opt/ros/kinetic/lib/libbondcpp.so
 /home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/astra_camera/astra_list_devices: /usr/lib/aarch64-linux-gnu/libuuid.so
+/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/astra_camera/astra_list_devices: /opt/ros/kinetic/lib/libbondcpp.so
 /home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/astra_camera/astra_list_devices: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
 /home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/astra_camera/astra_list_devices: /opt/ros/kinetic/lib/libclass_loader.so
 /home/nvidia/jetsonbot_ws/devel/.private/astra_camera/lib/astra_camera/astra_list_devices: /usr/lib/libPocoFoundation.so

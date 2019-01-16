@@ -1,0 +1,2 @@
+learning_joy
+-DCATKIN_DEVEL_PREFIX=/home/nvidia/teleop_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/teleop_ws/install -G Unix Makefiles

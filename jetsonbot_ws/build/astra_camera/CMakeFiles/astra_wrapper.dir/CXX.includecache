@@ -1323,6 +1323,8 @@ ros/message_operations.h
 -
 
 /opt/ros/kinetic/include/sensor_msgs/image_encodings.h
+cstdlib
+-
 stdexcept
 -
 string
