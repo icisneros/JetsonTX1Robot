@@ -13,7 +13,6 @@ from geometry_msgs.msg import Twist
 from math import radians
 
 # constant for speed 
-LIN_SPEED = 0.2
 ROT_SPEED = radians(90)
 
 class TurnLeft():
@@ -24,7 +23,7 @@ class TurnLeft():
         # What to do you ctrl + c (call shutdown function written below)
         rospy.on_shutdown(self.shutdown)
         
-        self.cmd_vel = rospy.Publisher('cmd_vel_mux/input/navi', Twist, queue_size=10)
+        self.cmd_vel = rospy.Publisher('cmd_vel', Twist, queue_size=10)
         rospy.sleep(1) # give rospy time to register the publisher
          
         # 10 Hz
