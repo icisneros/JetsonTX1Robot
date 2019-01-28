@@ -123,6 +123,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/nvidia/teleop_py_ws/build/create_autonomy/ca_description/cmake_install.cmake")
   include("/home/nvidia/teleop_py_ws/build/create_autonomy/ca_driver/cmake_install.cmake")
   include("/home/nvidia/teleop_py_ws/build/learning_joy/cmake_install.cmake")
+  include("/home/nvidia/teleop_py_ws/build/yocs_velocity_smoother/cmake_install.cmake")
 
 endif()
 

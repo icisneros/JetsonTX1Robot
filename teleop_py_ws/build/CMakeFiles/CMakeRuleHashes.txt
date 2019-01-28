@@ -4,6 +4,7 @@
 68909457bfd001bca4c869a244ffb422 /home/nvidia/teleop_py_ws/devel/include/ca_msgs/DefineSong.h
 83a49d38a75cc3beb47891b5a5a1c639 /home/nvidia/teleop_py_ws/devel/include/ca_msgs/Mode.h
 efdf715bfbd21fb8b0fbf246a34d8d33 /home/nvidia/teleop_py_ws/devel/include/ca_msgs/PlaySong.h
+4002f519d10384aec6a22b4a1024461b /home/nvidia/teleop_py_ws/devel/include/yocs_velocity_smoother/paramsConfig.h
 1009a2c67977d3e4437b49da936de5b4 /home/nvidia/teleop_py_ws/devel/lib/python2.7/dist-packages/ca_msgs/msg/_Bumper.py
 faf061bd6760112b061790326251d0ea /home/nvidia/teleop_py_ws/devel/lib/python2.7/dist-packages/ca_msgs/msg/_ChargingState.py
 572b1de6fb5ec9427ddfdb82e3de4e37 /home/nvidia/teleop_py_ws/devel/lib/python2.7/dist-packages/ca_msgs/msg/_DefineSong.py
@@ -43,3 +44,4 @@ cf77c15d4fae7508deed70fd628aea54 create_autonomy/ca_msgs/CMakeFiles/_ca_msgs_gen
 665eddd62e74eeb9834d0c95f603975b create_autonomy/ca_msgs/CMakeFiles/ca_msgs_generate_messages_lisp
 665eddd62e74eeb9834d0c95f603975b create_autonomy/ca_msgs/CMakeFiles/ca_msgs_generate_messages_nodejs
 665eddd62e74eeb9834d0c95f603975b create_autonomy/ca_msgs/CMakeFiles/ca_msgs_generate_messages_py
+79e9bbd1a3b870823d86184b51a5f88b yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg

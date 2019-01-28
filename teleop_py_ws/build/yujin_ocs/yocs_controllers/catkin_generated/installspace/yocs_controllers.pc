@@ -1,0 +1,8 @@
+prefix=/home/nvidia/teleop_py_ws/install
+
+Name: yocs_controllers
+Description: Description of yocs_controllers
+Version: 0.12.1
+Cflags: -I/home/nvidia/teleop_py_ws/install/include
+Libs: -L/home/nvidia/teleop_py_ws/install/lib 
+Requires: roscpp
