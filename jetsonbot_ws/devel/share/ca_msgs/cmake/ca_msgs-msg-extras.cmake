@@ -1,1 +1,2 @@
-/home/nvidia/jetsonbot_ws/devel/.private/ca_msgs/share/ca_msgs/cmake/ca_msgs-msg-extras.cmake
+set(ca_msgs_MESSAGE_FILES "/home/nvidia/jetsonbot_ws/src/create_autonomy/ca_msgs/msg/Bumper.msg;/home/nvidia/jetsonbot_ws/src/create_autonomy/ca_msgs/msg/ChargingState.msg;/home/nvidia/jetsonbot_ws/src/create_autonomy/ca_msgs/msg/DefineSong.msg;/home/nvidia/jetsonbot_ws/src/create_autonomy/ca_msgs/msg/Mode.msg;/home/nvidia/jetsonbot_ws/src/create_autonomy/ca_msgs/msg/PlaySong.msg")
+set(ca_msgs_SERVICE_FILES "")

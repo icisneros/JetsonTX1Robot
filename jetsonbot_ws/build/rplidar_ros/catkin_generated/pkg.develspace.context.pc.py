@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "rplidar_ros"
-PROJECT_SPACE_DIR = "/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros"
+PROJECT_SPACE_DIR = "/home/nvidia/jetsonbot_ws/devel"
 PROJECT_VERSION = "1.6.0"

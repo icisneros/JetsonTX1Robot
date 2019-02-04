@@ -1,1 +1,15 @@
-/home/nvidia/jetsonbot_ws/devel/.private/ca_msgs/share/common-lisp/ros/ca_msgs/msg/_package.lisp
+(cl:defpackage ca_msgs-msg
+  (:use )
+  (:export
+   "<BUMPER>"
+   "BUMPER"
+   "<CHARGINGSTATE>"
+   "CHARGINGSTATE"
+   "<DEFINESONG>"
+   "DEFINESONG"
+   "<MODE>"
+   "MODE"
+   "<PLAYSONG>"
+   "PLAYSONG"
+  ))
+

@@ -1,1 +1,6 @@
-/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/gennodejs/ros/astra_camera/_index.js
+
+"use strict";
+
+module.exports = {
+  srv: require('./srv/_index.js')
+};

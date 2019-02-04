@@ -1,1 +1,4 @@
-/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/astra_camera/cmake/astra_camera-msg-paths.cmake
+# generated from genmsg/cmake/pkg-msg-paths.cmake.develspace.in
+
+set(astra_camera_MSG_INCLUDE_DIRS "")
+set(astra_camera_MSG_DEPENDENCIES )

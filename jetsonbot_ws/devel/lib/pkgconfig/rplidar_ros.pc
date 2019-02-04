@@ -1,1 +1,8 @@
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/pkgconfig/rplidar_ros.pc
+prefix=/home/nvidia/jetsonbot_ws/devel
+
+Name: rplidar_ros
+Description: Description of rplidar_ros
+Version: 1.6.0
+Cflags: 
+Libs: -L/home/nvidia/jetsonbot_ws/devel/lib 
+Requires: 

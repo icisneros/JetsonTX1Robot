@@ -1,1 +1,4 @@
-/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/common-lisp/ros/astra_camera/srv/_package_GetSerial.lisp
+(cl:in-package astra_camera-srv)
+(cl:export '(SERIAL-VAL
+          SERIAL
+))

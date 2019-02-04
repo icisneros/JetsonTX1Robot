@@ -43,42 +43,42 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nvidia/jetsonbot_ws/src/rplidar_ros
+CMAKE_SOURCE_DIR = /home/nvidia/jetsonbot_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nvidia/jetsonbot_ws/build/rplidar_ros
+CMAKE_BINARY_DIR = /home/nvidia/jetsonbot_ws/build
 
 # Include any dependencies generated for this target.
-include CMakeFiles/rplidarNodeClient.dir/depend.make
+include rplidar_ros/CMakeFiles/rplidarNodeClient.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/rplidarNodeClient.dir/progress.make
+include rplidar_ros/CMakeFiles/rplidarNodeClient.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/rplidarNodeClient.dir/flags.make
+include rplidar_ros/CMakeFiles/rplidarNodeClient.dir/flags.make
 
-CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o: CMakeFiles/rplidarNodeClient.dir/flags.make
-CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o: /home/nvidia/jetsonbot_ws/src/rplidar_ros/src/client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nvidia/jetsonbot_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o -c /home/nvidia/jetsonbot_ws/src/rplidar_ros/src/client.cpp
+rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/flags.make
+rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o: /home/nvidia/jetsonbot_ws/src/rplidar_ros/src/client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nvidia/jetsonbot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
+	cd /home/nvidia/jetsonbot_ws/build/rplidar_ros && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o -c /home/nvidia/jetsonbot_ws/src/rplidar_ros/src/client.cpp
 
-CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i: cmake_force
+rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nvidia/jetsonbot_ws/src/rplidar_ros/src/client.cpp > CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i
+	cd /home/nvidia/jetsonbot_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nvidia/jetsonbot_ws/src/rplidar_ros/src/client.cpp > CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i
 
-CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s: cmake_force
+rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nvidia/jetsonbot_ws/src/rplidar_ros/src/client.cpp -o CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s
+	cd /home/nvidia/jetsonbot_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nvidia/jetsonbot_ws/src/rplidar_ros/src/client.cpp -o CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s
 
-CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o.requires:
+rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o.requires:
 
-.PHONY : CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o.requires
+.PHONY : rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o.requires
 
-CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o.provides: CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o.requires
-	$(MAKE) -f CMakeFiles/rplidarNodeClient.dir/build.make CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o.provides.build
-.PHONY : CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o.provides
+rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o.provides: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o.requires
+	$(MAKE) -f rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o.provides.build
+.PHONY : rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o.provides
 
-CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o.provides.build: CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o
+rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o.provides.build: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o
 
 
 # Object files for target rplidarNodeClient
@@ -88,45 +88,45 @@ rplidarNodeClient_OBJECTS = \
 # External object files for target rplidarNodeClient
 rplidarNodeClient_EXTERNAL_OBJECTS =
 
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: CMakeFiles/rplidarNodeClient.dir/build.make
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/kinetic/lib/libroscpp.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_signals.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/kinetic/lib/librosconsole.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/liblog4cxx.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_regex.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/kinetic/lib/librostime.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/kinetic/lib/libcpp_common.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_system.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_thread.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_chrono.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_date_time.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_atomic.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libpthread.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so
-/home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: CMakeFiles/rplidarNodeClient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nvidia/jetsonbot_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rplidarNodeClient.dir/link.txt --verbose=$(VERBOSE)
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/kinetic/lib/libroscpp.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_signals.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/kinetic/lib/librosconsole.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/liblog4cxx.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_regex.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/kinetic/lib/librostime.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/kinetic/lib/libcpp_common.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_system.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_thread.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_chrono.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_date_time.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_atomic.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libpthread.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so
+/home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nvidia/jetsonbot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient"
+	cd /home/nvidia/jetsonbot_ws/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rplidarNodeClient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/rplidarNodeClient.dir/build: /home/nvidia/jetsonbot_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build: /home/nvidia/jetsonbot_ws/devel/lib/rplidar_ros/rplidarNodeClient
 
-.PHONY : CMakeFiles/rplidarNodeClient.dir/build
+.PHONY : rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build
 
-CMakeFiles/rplidarNodeClient.dir/requires: CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o.requires
+rplidar_ros/CMakeFiles/rplidarNodeClient.dir/requires: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o.requires
 
-.PHONY : CMakeFiles/rplidarNodeClient.dir/requires
+.PHONY : rplidar_ros/CMakeFiles/rplidarNodeClient.dir/requires
 
-CMakeFiles/rplidarNodeClient.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/rplidarNodeClient.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/rplidarNodeClient.dir/clean
+rplidar_ros/CMakeFiles/rplidarNodeClient.dir/clean:
+	cd /home/nvidia/jetsonbot_ws/build/rplidar_ros && $(CMAKE_COMMAND) -P CMakeFiles/rplidarNodeClient.dir/cmake_clean.cmake
+.PHONY : rplidar_ros/CMakeFiles/rplidarNodeClient.dir/clean
 
-CMakeFiles/rplidarNodeClient.dir/depend:
-	cd /home/nvidia/jetsonbot_ws/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/jetsonbot_ws/src/rplidar_ros /home/nvidia/jetsonbot_ws/src/rplidar_ros /home/nvidia/jetsonbot_ws/build/rplidar_ros /home/nvidia/jetsonbot_ws/build/rplidar_ros /home/nvidia/jetsonbot_ws/build/rplidar_ros/CMakeFiles/rplidarNodeClient.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/rplidarNodeClient.dir/depend
+rplidar_ros/CMakeFiles/rplidarNodeClient.dir/depend:
+	cd /home/nvidia/jetsonbot_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/jetsonbot_ws/src /home/nvidia/jetsonbot_ws/src/rplidar_ros /home/nvidia/jetsonbot_ws/build /home/nvidia/jetsonbot_ws/build/rplidar_ros /home/nvidia/jetsonbot_ws/build/rplidar_ros/CMakeFiles/rplidarNodeClient.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : rplidar_ros/CMakeFiles/rplidarNodeClient.dir/depend
 

@@ -1,1 +1,10 @@
-/home/nvidia/jetsonbot_ws/devel/.private/ca_msgs/share/common-lisp/ros/ca_msgs/msg/_package_DefineSong.lisp
+(cl:in-package ca_msgs-msg)
+(cl:export '(SONG-VAL
+          SONG
+          LENGTH-VAL
+          LENGTH
+          NOTES-VAL
+          NOTES
+          DURATIONS-VAL
+          DURATIONS
+))

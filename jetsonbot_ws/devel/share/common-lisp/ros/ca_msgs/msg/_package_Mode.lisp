@@ -1,1 +1,6 @@
-/home/nvidia/jetsonbot_ws/devel/.private/ca_msgs/share/common-lisp/ros/ca_msgs/msg/_package_Mode.lisp
+(cl:in-package ca_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          MODE-VAL
+          MODE
+))

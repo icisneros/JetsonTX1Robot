@@ -1,1 +1,8 @@
-/home/nvidia/jetsonbot_ws/devel/.private/astra_launch/lib/pkgconfig/astra_launch.pc
+prefix=/home/nvidia/jetsonbot_ws/devel
+
+Name: astra_launch
+Description: Description of astra_launch
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/nvidia/jetsonbot_ws/devel/lib 
+Requires: 

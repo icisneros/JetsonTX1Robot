@@ -1,1 +1,8 @@
-/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/gennodejs/ros/astra_camera/srv/_index.js
+
+"use strict";
+
+let GetSerial = require('./GetSerial.js')
+
+module.exports = {
+  GetSerial: GetSerial,
+};

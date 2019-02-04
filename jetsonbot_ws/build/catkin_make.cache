@@ -1,0 +1,2 @@
+create_autonomy/ca_description:create_autonomy/ca_driver:create_autonomy/ca_msgs:create_autonomy/ca_tools:create_autonomy/create_autonomy:jetson_bot_urdf:learning_joy:libuvc_ros/libuvc_camera:libuvc_ros/libuvc_ros:ros_astra_camera:ros_astra_launch:rplidar_ros:yocs_velocity_smoother
+-DCATKIN_DEVEL_PREFIX=/home/nvidia/jetsonbot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/jetsonbot_ws/install -G Unix Makefiles

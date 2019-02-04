@@ -1,1 +1,10 @@
-/home/nvidia/jetsonbot_ws/devel/.private/astra_camera/share/common-lisp/ros/astra_camera/srv/_package.lisp
+(cl:defpackage astra_camera-srv
+  (:use )
+  (:export
+   "GETSERIAL"
+   "<GETSERIAL-REQUEST>"
+   "GETSERIAL-REQUEST"
+   "<GETSERIAL-RESPONSE>"
+   "GETSERIAL-RESPONSE"
+  ))
+

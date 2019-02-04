@@ -1,1 +1,6 @@
-/home/nvidia/jetsonbot_ws/devel/.private/ca_msgs/share/gennodejs/ros/ca_msgs/_index.js
+
+"use strict";
+
+module.exports = {
+  msg: require('./msg/_index.js'),
+};

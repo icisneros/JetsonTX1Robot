@@ -1,1 +1,6 @@
-/home/nvidia/jetsonbot_ws/devel/.private/ca_msgs/share/common-lisp/ros/ca_msgs/msg/_package_ChargingState.lisp
+(cl:in-package ca_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          STATE-VAL
+          STATE
+))
