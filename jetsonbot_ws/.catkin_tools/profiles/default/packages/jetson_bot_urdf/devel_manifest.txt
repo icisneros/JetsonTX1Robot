@@ -1,4 +1,0 @@
-jetson_bot_urdf
-/home/nvidia/jetsonbot_ws/devel/.private/jetson_bot_urdf/share/jetson_bot_urdf/cmake/jetson_bot_urdfConfig.cmake /home/nvidia/jetsonbot_ws/devel/share/jetson_bot_urdf/cmake/jetson_bot_urdfConfig.cmake
-/home/nvidia/jetsonbot_ws/devel/.private/jetson_bot_urdf/share/jetson_bot_urdf/cmake/jetson_bot_urdfConfig-version.cmake /home/nvidia/jetsonbot_ws/devel/share/jetson_bot_urdf/cmake/jetson_bot_urdfConfig-version.cmake
-/home/nvidia/jetsonbot_ws/devel/.private/jetson_bot_urdf/lib/pkgconfig/jetson_bot_urdf.pc /home/nvidia/jetsonbot_ws/devel/lib/pkgconfig/jetson_bot_urdf.pc

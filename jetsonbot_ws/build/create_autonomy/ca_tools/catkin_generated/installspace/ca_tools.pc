@@ -1,8 +1,0 @@
-prefix=/home/nvidia/jetsonbot_ws/install
-
-Name: ca_tools
-Description: Description of ca_tools
-Version: 1.3.0
-Cflags: 
-Libs: -L/home/nvidia/jetsonbot_ws/install/lib 
-Requires: 

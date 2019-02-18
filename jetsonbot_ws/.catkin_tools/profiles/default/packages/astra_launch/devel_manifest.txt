@@ -1,4 +1,0 @@
-ros_astra_launch
-/home/nvidia/jetsonbot_ws/devel/.private/astra_launch/share/astra_launch/cmake/astra_launchConfig-version.cmake /home/nvidia/jetsonbot_ws/devel/share/astra_launch/cmake/astra_launchConfig-version.cmake
-/home/nvidia/jetsonbot_ws/devel/.private/astra_launch/share/astra_launch/cmake/astra_launchConfig.cmake /home/nvidia/jetsonbot_ws/devel/share/astra_launch/cmake/astra_launchConfig.cmake
-/home/nvidia/jetsonbot_ws/devel/.private/astra_launch/lib/pkgconfig/astra_launch.pc /home/nvidia/jetsonbot_ws/devel/lib/pkgconfig/astra_launch.pc
